@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: local('idroid'), url(./pacote-projeto-d010/fontes/idroid.otf);
+}
+
+header{
+    background-image: linear-gradient(#3CD983, #185233);
+    height: 185px;
+    padding: 10px 20px 0 20px;
+}
+
+p.cabeça{
+    font-family: monospace;
+    color: white;
+    font-size: 15px;
+    margin: 30px auto;
+    text-align: center;
+    width: 500px;
+}
+
+h1.cabeça{
+        font-family: monospace;
+        font-size: 40px;
+        color: white;
+        margin: 10px auto;
+        text-align: center;
+}
+
+nav > a{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 20px;
+    color: white;
+    padding-right: 20px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #84E1AD;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main{
+    width: 840px;
+    margin: 0 auto 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 9px 6px rgba(0, 0, 0, 0.479);
+}
+
+.textos, aside{
+    padding: 20px;
+}
+
+h1, h2{
+    font-family: idroid;
+    color: #195A37;
+}
+
+p{
+    text-indent: 30px;
+}
+
+h1.historia{
+    font-size: 1.8em;
+}
+
+h2{
+    background-image: linear-gradient(to right, #b7eccf, rgb(252, 250, 250));
+}
+
+ul{
+    list-style: none;
+    display: inline-block;
+    width: 330px;
+}
+
+.video{
+    text-align: center;
+    background-color: #195A37;
+    width: 840px;
+}
+
+.foto{
+    margin-left: 250px;
+}
+
+aside{
+    background-color: #84E1AD;
+    margin: 20px;
+    padding: 0;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 5px 5px 9px 6px rgba(0, 0, 0, 0.295);
+}
+
+aside > p{
+    padding: 20px;
+}
+
+aside > h3{
+    background-color: #195A37;
+    color: white;
+    margin: 0;
+    height: 25px;
+    width: 760px;
+    padding: 10px;
+}
+
+.linkandroid::after{
+    content: '[Clique Aqui}';
+    color: lightslategray;
+}
+
+.linkandroid{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+footer{
+    background-color: #195A37;
+    text-align: center;
+    color: white;
+    height: 25px;
+}
+
+footer > p{
+    padding: 10px auto;
+
+}

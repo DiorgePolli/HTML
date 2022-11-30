@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+</head>
+
+<style>
+    body{
+        background-color: lightgoldenrodyellow;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        background-color: lightslategrey;
+        padding: 20px;
+        width: 400px;
+        margin: 10px auto;
+        border-radius: 10px;
+        box-shadow: 4px 6px 9px 1px rgba(0, 0, 0, 0.384);
+
+    }
+
+    a{
+        padding: 20px;
+        color: bisque;
+        text-decoration: none;
+    }
+
+    a:hover{
+        color: black;
+        background-color: white;
+        
+    }
+
+    .noticias{
+        background-color: lightgreen;
+        padding: 15px;
+        margin: 5px;
+        border-radius: 10px;
+        box-shadow: 4px 6px 9px 1px rgba(0, 0, 0, 0.384);
+    }
+
+    .noticias:hover{
+        color: black;
+        background-color: white;
+        cursor: pointer;
+    }
+
+    .esportes{
+        background-color: lightsteelblue;
+        padding: 15px;
+        margin: 5px;
+        border-radius: 10px;
+        box-shadow: 4px 6px 9px 1px rgba(0, 0, 0, 0.384);
+    }
+    
+    .esportes:hover{
+        color: black;
+        background-color: white;
+        cursor: pointer;
+    }
+
+    footer{
+        margin: 0;
+        background-color: rgb(255, 255, 97);
+        color: black;
+        padding: 10px;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 4px 6px 9px 1px rgba(0, 0, 0, 0.384);
+    }
+
+    footer > span.segundo{
+        display: none;
+    }
+
+    footer:hover > span.segundo{
+        display: block;
+    }
+
+   .primeiro:hover{
+        display: none;
+   }
+    
+
+</style>
+
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="">asdfsdf</a>
+            <a href="">sdfsafdsb</a>
+            <a href="">csdfsdf</a>
+            <a href="">dsdfsdfsdf</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="noticias">
+            <article>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam reiciendis natus corporis rem fugiat fuga rerum, mollitia recusandae, quae eos necessitatibus ipsam enim asperiores. Assumenda cumque commodi unde eveniet quos.</p>
+            </article>
+
+            <article>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam reiciendis natus corporis rem fugiat fuga rerum, mollitia recusandae, quae eos necessitatibus ipsam enim asperiores. Assumenda cumque commodi unde eveniet quos.</p>
+            </article>
+        </section>
+
+        <section class="esportes">
+            <article>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam reiciendis natus corporis rem fugiat fuga rerum, mollitia recusandae, quae eos necessitatibus ipsam enim asperiores. Assumenda cumque commodi unde eveniet quos.</p>
+            </article>
+            <aside>Nome do autor do texto</aside>
+        </section>
+
+    </main>
+    <footer>
+        <span class="primeiro">Todos os direitos reservados.</span>
+        <span class="segundo">Não copia comédia.</span>
+    </footer>
+</body>
+</html>

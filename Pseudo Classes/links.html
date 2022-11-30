@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+
+<style>
+    body{
+        text-align: center;
+    }
+
+    ul{
+        text-decoration: none;
+        list-style: none;
+    }
+
+    a{
+        color: chartreuse;
+        text-decoration: none;
+        background-color: rgb(206, 173, 92);
+        width: 200px;
+    }
+
+    a:visited{
+        color: crimson;
+    }
+
+    a:hover{
+        color: rgb(51, 51, 153);
+    }
+    
+    a:active{
+        color: green;
+    }
+
+    a::after{
+        content: '[Clique]';
+        color: gainsboro;
+    }
+
+    a::before{
+        content: '[Viado]';
+        color: gainsboro;
+    }
+</style>
+
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://ge.globo.com">globoesporte</a></li>
+        <li><a href="https:netvasco.com">netvasco</a></li>
+        <li><a href="https://xvideos.com">xvideos</a></li>
+    </ul>
+</body>
+</html>
