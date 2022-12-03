@@ -13,11 +13,35 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
+
+        caption{
+            background-color: gray;
+            font-weight: bolder;
+            padding: 10px;
+            font-size: 1.3em;
+            border: 2px solid white;
+            
+        }
+
+        thead tr th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
         }
 
         td, th{
             border: 2px solid black;
             padding: 10px;
+        }
+
+        tbody tr:nth-child(odd){
+            background-color: lightgrey;
+        }
+
+        tbody tr:nth-child(even){
+            background-color: rgba(73, 73, 4, 0.37);
         }
 
         thead, tfoot{
@@ -29,10 +53,11 @@
 <body>
     <h1>Uso de tabelas Grandes</h1>
     <table>
+        <caption>População das Unidades federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width:50px;">População</th>
             </tr>
         </thead>
         
@@ -49,11 +74,74 @@
                 <td>Minas Gerais</td>
                 <td>452.192.190</td>
             </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td>452.192.190</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>452.192.190</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>452.192.190</td>
+            </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td>452.192.190</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>452.192.190</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>452.192.190</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>452.192.190</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>452.192.190</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>452.192.190</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>452.192.190</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>452.192.190</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>452.192.190</td>
+            </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td>452.192.190</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>452.192.190</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>452.192.190</td>
+            </tr>
         </tbody>
 
         <tfoot>
             <tr>
-                <td>Total de Habitantes</td>
+                <th scope="row">Total de Habitantes</td>
                 <td>000000000 pessoas</td>
             </tr>
         </tfoot>
